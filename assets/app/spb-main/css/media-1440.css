@@ -1,0 +1,23 @@
+@media screen and (max-width: 1440px) {
+	#prices-certificates .img-container .cert-1,
+	#prices-certificates .img-container .cert-2,
+	#prices-certificates .img-container .cert-3,
+	#prices-certificates .img-container .cert-4 {
+		width: 70%; }
+	#prices-certificates .img-container .cert-1 {
+		top: 0;
+		left: 40px; }
+	#prices-certificates .img-container .cert-2 {
+		top: 0;
+		left: 100px; }
+	#prices-certificates .img-container .cert-3 {
+		top: 40px;
+		left: 170px; }
+	#prices-certificates .img-container .cert-4 {
+		top: 65px;
+		left: 255px; }
+	footer .map-wrapper img {
+		right: -680px; }
+	footer.contacts-footer .map-wrapper img {
+		right: -1110px; }
+}

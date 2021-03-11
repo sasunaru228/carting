@@ -1,0 +1,664 @@
+@media screen and (max-width: 1024px) {
+  .dec {
+    display: none !important; }
+  #city-picker {
+    display: none; }
+  .remodal.mobile-menu {
+    max-width: none;
+    background-color: transparent;
+    padding: 0;
+    height: 100%;
+    text-align: left; }
+    .remodal.mobile-menu .remodal-close {
+      top: -5px;
+      right: -10px;
+      color: #A5A5A5; }
+      .remodal.mobile-menu .remodal-close:before {
+        background-image: url(../img/icons/mobile-close.svg); }
+    .remodal.mobile-menu .menu-logo {
+      margin-top: 2px; }
+      .remodal.mobile-menu .menu-logo img {
+        width: 74px; }
+    .remodal.mobile-menu ul {
+      text-align: center;
+      margin-top: 27px; }
+      .remodal.mobile-menu ul li:not(:last-of-type) {
+        margin-bottom: 4px; }
+      .remodal.mobile-menu ul li a {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 8px 15px; }
+    .remodal.mobile-menu .phone-menu-add {
+      margin-top: 16px;
+      text-align: center; }
+      .remodal.mobile-menu .phone-menu-add a.y-button {
+        width: 280px;
+        height: 46px;
+        display: inline-block;
+        background-color: #FF9F00;
+        margin-bottom: 46px; }
+      .remodal.mobile-menu .phone-menu-add a.y-button p.inner {
+        color: #FFF;
+        font-size: 14px;
+        line-height: 44px !important;
+        font-weight: 500;
+        -moz-transform: skew(12deg, 0deg);
+        -webkit-transform: skew(12deg, 0deg);
+        -o-transform: skew(12deg, 0deg);
+        -ms-transform: skew(12deg, 0deg);
+        transform: skew(12deg, 0deg); }
+      .remodal.mobile-menu .phone-menu-add .contacts a {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        margin-bottom: 14px; }
+      .remodal.mobile-menu .phone-menu-add .contacts p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFF;
+        font-weight: 700;
+        margin-bottom: 8px; }
+      .remodal.mobile-menu .phone-menu-add .contacts .gray {
+        font-weight: 400;
+        color: #A5A5A5; }
+  header.scroll {
+    height: 46px;
+    background-color: #FF9F00; }
+  header.scroll a.logo {
+    position: relative;
+    z-index: 1; }
+    header.scroll .phone-menu {
+      width: 38px;
+      height: 38px;
+      right: 18px;
+      top: 4px; }
+      header.scroll .phone-menu svg rect {
+        fill: #FFF; }
+    header.scroll a.logo #white-logo {
+      display: block;
+      margin-top: 10px; }
+    header.scroll a.logo #main-logo {
+      display: none; }
+    header.scroll .phone-tel {
+      display: none; }
+  header.scroll .booking .wrapper {
+    width: 110px;
+    height: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FF9F00; }
+    header.scroll .booking .wrapper a {
+      color: #FFF;
+      font-size: 13px;
+      line-height: 120%;
+      font-weight: 500; }
+  header.scroll .booking {
+    opacity: 1;
+    display: block;
+    margin-top: 6px; }
+  header a.logo #main-logo {
+    width: 132px;
+    margin-top: 16px; }
+  header a.logo #scroll-logo {
+    width: 74px;
+    margin-top: 6px;
+    display: none; }
+  header {
+    height: 60px;
+    z-index: 5; }
+    header #scroll-logo {
+      display: none; }
+    header .phone-tel {
+      display: block;
+      position: absolute;
+      right: 73px;
+      padding: 10px;
+      top: 15px; }
+  header .contacts p, header .contacts a {
+    display: none; }
+  header .booking {
+    display: none;
+    opacity: 0;
+    float: none;
+    margin-left: 10px;
+    margin-right: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease; }
+  header .menu {
+    display: none; }
+  header .contacts a {
+    font-weight: 500;
+    margin-bottom: 0; }
+  header .contacts {
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: 21px;
+    float: none;
+    margin: auto; }
+  header .phone-menu {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    right: 10px;
+    top: 7px;
+    z-index: 1; }
+    header .phone-menu svg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+      header .phone-menu svg rect {
+        fill: #FF9F00; }
+#title video, #title img.back {
+  width: auto;
+  height: 100%; }
+#title .title h1 {
+  font-size: 28px;
+  line-height: 135.5%; }
+   }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px; }
+  .remodal.mobile-menu .remodal-close {
+    top: 0;
+    right: 0; }
+  h2 {
+    font-size: 20px;
+    line-height: 24px; }
+  header a.logo #main-logo {
+    width: 140px; }
+  #title .widget {
+    top: 155px; }
+  #title .title {
+    margin-left: 80px;
+    margin-top: 237px; }
+  #services .main-slider .swiper-slide-prev .col.left h3,
+  #services .main-slider .swiper-slide-next .col.left h3 {
+    display: none; }
+  #services .main-slider .img-container {
+    height: 410px; }
+  #services .main-slider .img-container p {
+    font-size: 280px;
+    line-height: 336px; }
+  #services .main-slider .img-container img.kart-img {
+    width: 80%; }
+  #services .main-slider .text-container .left p {
+    font-size: 12px;
+    line-height: 17px; }
+  #services {
+    padding-bottom: 0; }
+  #track {
+    padding-top: 90px;
+    padding-bottom: 0; }
+  #track .regalia {
+    width: 200px;
+    top: -15px; }
+  #track .info .lower p {
+    font-size: 12px;
+    line-height: 17px; }
+  #track .info .lower {
+    padding-right: 150px; }
+  #track .map img.map-img {
+    width: 88%; }
+  #track .map img.benking {
+    top: 100px;
+    right: 0; }
+  #track .map img.bridge {
+    top: 25px;
+    right: 175px; }
+  #track .map img.min {
+    display: block; }
+  #track .map img.full {
+    display: none; }
+  #track .map img.tunnel {
+    display: none;
+    top: 23px;
+    left: 175px; }
+  #track .map {
+    height: 490px; }
+  #features .row {
+    margin-top: 65px;
+    margin-left: -15px;
+    margin-right: -15px; }
+  #features .row .col {
+    padding-left: 15px;
+    padding-right: 15px; }
+  #features .row .item .text-container p {
+    font-size: 12px;
+    line-height: 17px; }
+  #features .row .col:not(:nth-last-child(-n+2)) .item {
+    margin-bottom: 45px; }
+  #features {
+    padding-bottom: 0; }
+  #media .video {
+    height: 305px; }
+  #media .instagram-photo {
+    height: 305px; }
+  /*#media .instagram a {
+    width: -webkit-calc(33.333333333% - 10px);
+    width: calc(33.333333333% - 10px);
+    height: 135px; }*/
+  #prices p.title {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 54px;
+    width: 445px; }
+  #prices .kart-prices {
+    margin-top: 50px;
+    min-height: 560px; }
+  #prices .kart-prices .item .img-container p {
+    font-size: 120px;
+    line-height: 144px; }
+  #prices .kart-prices .item .img-container {
+    height: 270px; }
+  #prices .kart-prices .item .info .text-container p {
+    font-size: 12px;
+    line-height: 20px;
+    height: 42px; }
+  #prices .kart-prices .item .info {
+    padding: 0; }
+  #prices .kart-prices .item .info .full-lower .specifications .spec:not(:last-child) {
+    margin-right: 23px; }
+  #prices .kart-prices .item .info .full-lower p.time {
+    padding-left: 18px; }
+  #prices .kart-prices .item .info .preview-lower {
+    margin-top: -5px; }
+  #prices .kart-prices .item .info .full-lower .schedule .schedule-lower .days:first-child {
+    margin-right: 25px; }
+  #prices-certificates p.title {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 480px; }
+  #prices-certificates h2 {
+    width: auto;
+    max-width: 300px; }
+  #prices-certificates .img-container .cert {
+    width: 75%; }
+  #prices-certificates .img-container,
+  #prices-certificates .subscriptions .img-container,
+  #prices-certificates .row.individual .img-container {
+    margin-top: 0; }
+  #prices-certificates .img-container.cert-img {
+    margin-top: -70px;
+    margin-left: -120px; }
+  #prices-certificates .img-container .cert-1 {
+    left: 0; }
+  #prices-certificates .img-container .cert-2 {
+    left: 55px; }
+  #prices-certificates .img-container .cert-3 {
+    top: 0;
+    left: 110px; }
+  #prices-certificates .img-container .cert-4 {
+    top: 0;
+    left: 165px; }
+  #prices-certificates .row:not(:last-child) {
+    margin-bottom: 100px; }
+  #prices-certificates .lower {
+    margin-top: 20px; }
+  #other-prices {
+    margin-top: 40px;
+    padding-bottom: 50px; }
+  #other-prices .item .text-container p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px; }
+  #gift h2 {
+    font-size: 20px;
+    line-height: 24px; }
+  #gift p.title {
+    font-size: 12px;
+    line-height: 164%;
+    margin-left: 42px;
+    width: 470px; }
+  #certificates-line {
+    margin-top: 38px; }
+  .certificates-common .item .text-container {
+    margin-top: -20px; }
+  #season-tickets-line {
+    margin-top: 60px; }
+  .certificates-common h2 {
+    font-size: 20px;
+    line-height: 24px; }
+  #season-tickets-line .item .text-container {
+    margin-top: -60px; }
+  #individual-line h2 {
+    margin-bottom: 23px; }
+  #individual-line .text-container {
+    margin-top: -75px; }
+  #rent p.title {
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: -2px;
+    margin-left: 11px;
+    width: 370px; }
+  #rent .rent-slider {
+    width: 618px; }
+  #rent .rent-slider .img-container {
+    height: 320px; }
+  #rent .slider-wrapper {
+    width: auto;
+    margin-left: -32px;
+    margin-right: -32px;
+    min-height: 530px; }
+  #rent .rent-slider .swiper-slide.swiper-slide-prev .img-container h3 {
+    left: 40%; }
+  #rent-options {
+    padding-top: 50px; }
+  #rent-options .left p {
+    font-size: 12px;
+    line-height: 164%; }
+  #rent-options .right .row {
+    margin-left: -12px;
+    margin-right: -12px; }
+  #rent-options .right .col {
+    padding-left: 12px;
+    padding-right: 12px; }
+  #rent-options .right p.title {
+    font-size: 12px;
+    line-height: 164%;
+    width: 520px; }
+  #rent-options .right .col:nth-child(-n+3) .item {
+    margin-bottom: 20px; }
+  #rent-options .right .item .img-container {
+    height: 40px;
+    width: 48px; }
+    #rent-options .right .item .img-container img {
+      height: 100%; }
+  #rent-options .right .item .text-container p {
+    font-size: 12px;
+    line-height: 140%; }
+  #rent-options .child {
+    margin-top: 40px; }
+  #rent-options .child .text-container p {
+    font-size: 12px;
+    line-height: 140%; }
+  #rent-request {
+    padding-top: 77px; }
+  #rent-request h2 {
+    font-size: 20px;
+    line-height: 144%; }
+  .secondary-page p.title {
+    font-size: 12px;
+    line-height: 140%; }
+  #school-page p.title {
+    margin-left: 39px; }
+  #school-upper-adv {
+    margin-top: 45px; }
+  #school-upper-adv .item h4 {
+    font-size: 12px;
+    line-height: 14px; }
+  #school-upper-adv .img-container .kart-1 {
+    width: 491px;
+    left: -35px; }
+  #school-upper-adv .img-container .kart-2 {
+    width: 397px;
+    left: 205px; }
+  #school-lower-adv {
+    margin-top: 40px; }
+  #school-upper-adv .item .inner {
+    padding-right: 75px; }
+  #school-lower-adv .img-container {
+    height: 230px;
+    margin-top: 0;
+    margin-left: -130px; }
+  #school-lower-adv .img-container img {
+    top: 100px; }
+  #school-lower-adv .text {
+    padding-top: 0; }
+  #school-lower-adv .text .item h4 {
+    font-size: 12px;
+    line-height: 14px; }
+  #timetable-price {
+    margin-top: 50px; }
+  #school-timetable table {
+    width: 100%; }
+  #school-timetable table tr td:first-child {
+    width: 245px; }
+  #prices-certificates.school-prices .text-container p {
+    max-width: 335px; }
+  #school-lower-adv .text .item {
+    margin-bottom: 24px; }
+  #school-qualities {
+    margin-top: 60px; }
+  #school-qualities .row {
+    margin-left: -28px;
+    margin-right: -28px; }
+  #school-qualities .col {
+    padding-left: 28px;
+    padding-right: 28px; }
+  #school-qualities .item {
+    margin-bottom: 41px; }
+  #school-qualities .item .text-container p {
+    font-size: 12px;
+    line-height: 164%; }
+  #school-trainer {
+    margin-top: 20px;
+    padding-bottom: 100px; }
+  #school-trainer img.bg {
+    left: 32px; }
+  #school-trainer .title p {
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 575px; }
+  #school-trainer .trainer {
+    margin-top: 91px; }
+  #school-trainer .trainer .row {
+    margin-left: -17px;
+    margin-right: -17px; }
+  #school-trainer .trainer .col {
+    padding-left: 17px;
+    padding-right: 17px; }
+  #school-trainer .trainer img {
+    width: 100%;
+    margin-top: -50px; }
+  #school-trainer .trainer h5 {
+    padding-top: 0;
+    font-size: 20px;
+    line-height: 144%;
+    margin-bottom: 4px; }
+  #school-trainer .trainer p {
+    font-size: 12px;
+    line-height: 164%; }
+  #school-trainer form {
+    margin-top: 6px; }
+  #rating {
+    padding-bottom: 80px; }
+  #rating p.title {
+    width: 510px; }
+  #rating .rating .overall-rating h2 {
+    line-height: 24px; }
+  #rating .top-scores h2 {
+    font-size: 16px;
+    line-height: 19px; }
+  #rating .rating .menu ul:not(.dropdown) > li:not(:last-child) {
+    margin-right: 20px; }
+  #rating .rating .top-places:before {
+    -webkit-background-size: cover;
+            background-size: cover; }
+  #rating .rating .top-places .item.side {
+    margin-top: 65px; }
+  #rating .rating .top-places .item {
+    margin-top: 45px; }
+  #rating .rating .top-places .item .img-container .photo {
+    top: 76px;
+    width: 95px;
+    height: 95px; }
+  #rating .rating .top-places .item.side .img-container .photo {
+    top: 62px;
+    width: 77px;
+    height: 77px;
+    right: 6px; }
+  #rating .top-scores table tr th:first-of-type, #rating .top-scores table tr td:first-of-type {
+    width: 64%; }
+  #rating .top-scores .menu table tr th:last-of-type p:after {
+    margin-left: 7px; }
+  #rating .rating .menu ul:not(.dropdown) > li p {
+    padding: 10px 4px 10px 10px; }
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(3) {
+    width: 35%; }
+  #rating .rating .rating-list table tr td:nth-of-type(3) {
+    width: 41%; }
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(4) {
+    width: 9%; }
+  #rating .rating .rating-list table tr td:nth-of-type(4) {
+    width: 24%; }
+  #rating .rating #points-rating {
+    margin-top: 30px; }
+  #rating .rating #points-rating .title table tr .wrap,
+  #rating .rating #points-rating .title table tr .wrap2 {
+    display: block; }
+/*    #rating .rating #points-rating .title table tr .wrap:after,
+    #rating .rating #points-rating .title table tr .wrap2:after {
+      content: "-";
+      display: inline-block; }*/
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(2) {
+    width: 60px; }
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(5) {
+    width: 23%; }
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(6) {
+    width: 44px; }
+  #rating .rating #points-rating .rating-list table tr td:nth-of-type(7) {
+    width: 70px; }
+  #rating .rating #points-rating .menu ul:not(.dropdown) > li:not(:last-child) {
+    margin-right: 20px; }
+  #rating .footnotes {
+    margin-top: 124px;
+    padding-left: 40px; }
+  #competition .title {
+    margin-left: 0; }
+  #competition h2 {
+    display: block;
+    float: none;
+    margin-bottom: 12px; }
+  #competition .title p:not(:last-of-type) {
+    margin-bottom: 15px; }
+  #competition .title p {
+    font-size: 12px; }
+  #competition .text-container .prize-fund p.val {
+    font-size: 20px; }
+  #competition .upcoming {
+    margin-top: 36px; }
+  #competition .row {
+    margin-left: -8px;
+    margin-right: -8px; }
+  #competition .col {
+    padding-left: 8px;
+    padding-right: 8px; }
+  #competition .img-container .img-title h4 {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 400px; }
+  #competition .text-container .upper p.val {
+    font-size: 20px; }
+  #competition .text-container .upper .date {
+    min-width: auto;
+    padding-right: 35px; }
+  #competition .text-container .lower ul li {
+    font-size: 12px; }
+  #competition .past {
+    margin-top: 60px; }
+  #race-header .img-container {
+    height: 240px; }
+  #race-details {
+    margin-top: 40px;
+    padding-bottom: 40px; }
+  #race-details h2 {
+    font-size: 24px;
+    line-height: 29px; }
+  #race-request {
+    padding-bottom: 80px; }
+  #contacts .contacts .phone a {
+    font-size: 30px;
+    line-height: 35px; }
+  #page-404 .img-container img {
+    width: auto;
+    height: 100%;
+    left: -100%;
+    right: -100%; }
+  #page-404 a.logo {
+    margin-top: 56px;
+    margin-bottom: 23vh;
+    width: 165px; }
+  #page-404 h1 {
+    font-size: 140px;
+    line-height: 168px; }
+  #page-404 p {
+    font-size: 16px;
+    line-height: 19px; }
+  .footer-404 {
+    padding-bottom: 30px; }
+  .contacts-footer {
+    padding-top: 90px; }
+  .contacts-footer .map, .contacts-footer .map-wrapper {
+    height: 400px; }
+  footer {
+    margin-top: 0; }
+  footer .map, footer .map-wrapper {
+    top: -30px;
+    bottom: 19vw; }
+  footer .map-wrapper img {
+    right: -615px; }
+  footer.contacts-footer .map-wrapper img {
+    right: -675px; }
+  footer .contacts {
+    margin-bottom: 28px;
+    width: 400px; }
+  footer .payment p {
+    width: 476px;
+    margin-right: 79px;
+    padding-bottom: 25px; }
+  footer .bs-group {
+    margin-top: 20px; }
+  footer .bs-group .row {
+    margin-left: -15px; }
+  footer .bs-group .img-container img {
+    max-width: 85%;
+    max-height: 35px; } }
+
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+  header.scroll .contacts {
+    display: none; }
+  header.scroll a.logo #white-logo {
+    margin-top: 16px; }
+  header.scroll .booking {
+    left: 0;
+    right: 0;
+    top: 7px;
+    margin: auto; }
+  header.scroll .booking .wrapper a {
+    font-size: 12px;
+    line-height: 20px; }
+  header a.logo #main-logo {
+    margin-top: 23px; }
+  header .phone-tel {
+    display: none; }
+  header .booking {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    margin: 0;
+    right: 249px;
+    top: 17px; }
+  header .contacts p, header .contacts a {
+    display: block; }
+  header .contacts {
+    left: auto;
+    right: 85px;
+    top: 30px; }
+  header .contacts a {
+    margin-bottom: 8px; }
+  header .contacts p:first-of-type {
+    margin-bottom: 4px; } }

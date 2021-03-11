@@ -1,0 +1,25 @@
+/*@import url("../../../../../https@fonts.googleapis.com/css@family=Roboto_3A400,500i,700,900&subset=cyrillic");*/
+
+@font-face {
+    font-family: 'ALSRubl';
+    src: url("../fonts/ALSRubl.eot");
+    src: url("../fonts/ALSRubl.eot@#iefix") format("embedded-opentype"), url("../fonts/ALSRubl.woff") format("woff"), url("../fonts/ALSRubl.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DrukWideBold';
+    src: url("../fonts/DrukWideCy-Bold.eot");
+    src: url("../fonts/DrukWideCy-Bold.eot@#iefix") format("embedded-opentype"), url("../fonts/DrukWideCy-Bold.woff") format("woff"), url("../fonts/DrukWideCy-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DrukWideMedium';
+    src: url("../fonts/DrukWideCy-Medium.eot");
+    src: url("../fonts/DrukWideCy-Medium.eot@#iefix") format("embedded-opentype"), url("../fonts/DrukWideCy-Medium.woff") format("woff"), url("../fonts/DrukWideCy-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
