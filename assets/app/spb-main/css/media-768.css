@@ -1345,3 +1345,10 @@
     margin-right: -35px; }
   footer .bs-group .item {
     margin-bottom: 20px; } }
+  .map-img {
+    position: relative!important;
+    left: 0!important;
+    right: 0!important;
+    width: 360px !important;
+    margin-left: 0!important;
+  }

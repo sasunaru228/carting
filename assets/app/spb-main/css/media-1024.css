@@ -167,6 +167,7 @@
   line-height: 135.5%; }
    }
 
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container {
     padding-left: 32px;
@@ -662,3 +663,7 @@
     margin-bottom: 8px; }
   header .contacts p:first-of-type {
     margin-bottom: 4px; } }
+  .map-img {
+    margin-left: 300px!important;
+    width: 50% !important;
+  }
