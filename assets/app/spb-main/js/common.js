@@ -84,7 +84,7 @@ $(document).ready(function() {
 
 	// Main slider
 
-	var menu = ['Карты', 'Slide 2', 'Slide 3', 'Сертификаты', 'Аренда', 'Школа', 'Соревнования']
+	var menu = ['Карты', 'Карты', 'Карты',  'Сертификаты', 'Школа', 'Соревнования']
 	var swiper = new Swiper('.main-slider', {
 		spaceBetween: 500,
 		effect: 'coverflow',
@@ -93,7 +93,7 @@ $(document).ready(function() {
 		centeredSlides: true,
 		slidesPerView: 'auto',
 		loop: true,
-		loopedSlides: 7,
+		loopedSlides: 5,
 		coverflowEffect: {
 			rotate: 0,
 			stretch: 0,
