@@ -35,60 +35,18 @@
 	<meta property="og:url" content= "https://spb.blackstarkarting.ru/" />
 </head>
 <body>
-	<div class="remodal" data-remodal-id="modal">
-		<button data-remodal-action="close" class="remodal-close"></button>
-		<div class="upper">
-			<h6>Обратная связь</h6>
-			<p>Оставьте контакты и мы с вами свяжемся:</p>
-		</div>
-		<form id="modal-form">
-			<input type="hidden" name="project_name" value="Black Star Karting">
-			<input type="hidden" name="admin_email" value="">
-			<input type="hidden" name="form_subject" value="">
-			<div class="form-group">
-				<input name="name" type="text" id="modal-name">
-				<label for="modal-name">Ваше имя</label>
-			</div>
-			<div class="form-group">
-				<input name="phone" placeholder="+ 7" type="text" id="modal-phone">
-				<label for="modal-phone">Номер телефона</label>
-			</div>
-			<div class="form-group">
-				<input name="email" type="text" id="modal-email">
-				<label for="modal-email">Email</label>		
-			</div>		
-			<div class="form-group">
-				<input name="rules" type="checkbox" value="1" id="modal-rules">
-				<label for="modal-rules">Согласен на обработку <a href="assets/app/doc/personal.pdf" target="_blank">персональных данных</a></label>
-	  		</div>
-			<button><p class="inner">Отправить</p></button>
-		</form>
-	</div>
 	<div class="mobile-menu remodal" data-remodal-id="menu">
 		<button data-remodal-action="close" class="remodal-close"></button>
-		<a href="default.htm" class="menu-logo">
+		<a href="index.html" class="menu-logo">
 			<img src="assets/app/spb-main/img/mini-logo-spb.svg" alt="">
 		</a>
 		<ul class=""><li><a href="prices.html" >Цены</a></li><li><a href="promotion.html" >Акции</a></li><li><a href="certificates.html" >Сертификаты</a></li><li><a href="school.html" >Школа</a></li><li><a href="contacts.html" >Контакты</a></li></ul>
 		<div class="phone-menu-add">
-			<div id="mobile-city-picker" class="common-city-picker">
-				<div id="mobile-current-city" class="common-current-city">
-					<p>Санкт-Петербург</p>
-					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M2 2L6.58269 6L12 2" stroke="#909090" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
-					</svg>
-				</div>
-				<div class="dropdown">
-					<ul>
-						<li><a href="../https@blackstarkarting.ru/default.htm">Москва</a></li>
-					</ul>
-				</div>
-			</div>
-			<a href="../https@booking.blackstarkarting.ru/default.htm" class="y-button"><p class="inner">Забронировать</p></a>
+			<a href="#" class="y-button"><p class="inner">Забронировать</p></a>
 			<div class="contacts">
 				<a href="tel_3A+78125645413">+7 (812) 564-54-13</a>
 				<p><span class="gray">Вс—Чт: </span>10:00 — 23:00</p>
-<p><span class="gray">Пт—Сб: </span>10:00 — 23:00</p>
+				<p><span class="gray">Пт—Сб: </span>10:00 — 23:00</p>
 			</div>
 		</div>
 	</div>
@@ -97,40 +55,30 @@
 		<p class="upper">позвоните нам по телефону</p>
 		<a href="tel_3A+78125645413">+7 (812) 564-54-13</a>
 		<p class="lower">и мы расскажем вам, как оплатить и забрать сертификат или абонемент</p>
+		<!--
+	<form action="pay/pay.php" method="post">
+	<input name="sum" value="">
+	<p><input type="submit"></p>
+	</form>
+	-->
 	</div>
-
 	<div class="remodal-bg">
 		<header>
 			<div class="container">
-				<a href="default.htm" class="logo">
-					<img src="assets/app/spb-main/img/spb-logo.svg" alt="" id="main-logo">
-					<img src="assets/app/spb-main/img/mini-logo-spb.svg" alt="" id="scroll-logo">
-					<img src="assets/app/spb-main/img/white-logo.svg" alt="" id="white-logo">
+				<a href="index.html" class="logo">
+					<img src="assets/logo.png" alt="" id="main-logo" style="width: 100px">
 				</a>
 				<div class="menu">
 					<ul class=""><li><a href="prices.html" >Цены</a></li><li><a href="promotion.html" >Акции</a></li><li class="now-this"><a href="certificates.html" >Сертификаты</a></li><li><a href="school.html" >Школа</a></li><li><a href="contacts.html" >Контакты</a></li></ul>
 				</div>
 				<div class="contacts">
-					<a href="tel_3A+78125645413">+7 (812) 564-54-13</a>
-					<p><span class="gray">Вс—Чт: </span>10:00 — 23:00</p>
-<p><span class="gray">Пт—Сб: </span>10:00 — 23:00</p>
+					<a href="tel:+78129231800">+7 (812) 923-18-00</a>
+					<p><span class="gray">Вс—Чт: </span>15:00 — 01:00</p>
+<p><span class="gray">Пт—Сб: </span>15:00 — 01:00</p>
 				</div>
 				<div class="booking">
 					<div class="wrapper">
-						<a href="../https@booking.spb.blackstarkarting.ru/default.htm">Забронировать</a>
-					</div>
-					<div id="city-picker" class="common-city-picker">
-						<div id="current-city" class="common-current-city">
-							<p>Санкт-Петербург</p>
-							<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M2 2L6.58269 6L12 2" stroke="#909090" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
-							</svg>
-						</div>
-						<div class="dropdown">
-							<ul>
-								<li><a href="../https@blackstarkarting.ru/default.htm">Москва</a></li>
-							</ul>
-						</div>
+						<a href="#">Забронировать</a>
 					</div>
 				</div>
 				<a href="#menu" class="phone-menu">
@@ -346,8 +294,8 @@
 								<p><span class="sum">5 000 </span><span class="rub">p</span></p>
 								<!--<a href="https://blackstarkarting.ru/certificates.html#call" class="y-button desktop">Купить</a>-->
 								<!--<a href="tel:+78125645413" class="y-button mobile">Купить</a>-->
-								<a href="../https@vouchers.spb.blackstarkarting.ru/c/trenirovka/v/75973f87-bf75-4036-91d5-ce1f9ffc5ccc" target="_blank" class="y-button desktop"><p class="inner">Купить</p></a>
-								<a href="../https@vouchers.spb.blackstarkarting.ru/c/trenirovka/v/75973f87-bf75-4036-91d5-ce1f9ffc5ccc" target="_blank" class="y-button mobile"><p class="inner">Купить</p></a>
+								<a href="#" target="_blank" class="y-button desktop"><p class="inner">Купить</p></a>
+								<a href="#" target="_blank" class="y-button mobile"><p class="inner">Купить</p></a>
 							</div>
 						</div>
 					</div>
@@ -364,12 +312,6 @@
 			</div>
 		</section>
 		<footer>
-			<div class="map-wrapper">
-				<div class="top-mask"></div>
-				<div class="left-mask"></div>
-				<!--<div id="map"></div>-->
-				<img src="assets/app/spb-main/img/main-map.png" alt="">
-			</div>
 			<div class="container">
 				<div class="contacts">
 					<div class="row">
@@ -390,10 +332,7 @@
 					</div>
 					<div class="address-block">
 						<p class="name">Адрес:</p>
-						<p class="address">Санкт-Петербург, ТРК «Питерлэнд», Приморский пр. 72, 3 этаж</p>
-						<div class="subway">
-							<p><span class="station">БЕГОВАЯ</span><span class="station">НОВОКРЕСТОВСКАЯ</span></p>
-						</div>
+						<p class="address">Санкт-Петербург, Ул. Седова 18</p>
 						<a href="#">Как добраться?</a>
 					</div>
 					<div class="social">
@@ -418,111 +357,11 @@
 					<p class="copyright"><span class="current-year"></span>, Black Star Karting — резззкий, дерррзкий!</p>
 				</div>
 			</div>
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="payment">
-						<p>ИП Сырова Ольга Александровна. 187315, Ленинградская обл., Кировский р-н, Лезье д., дом № 84, корпус А.
-ИНН 290131143894, ОГРН ИП 319470400115612 (Свидетельство от 25.12.2019 г. выдано ИФНС по Выборгскому р-ну Ленинградской обл.). Тел/факс: (8182) 28-11-11</p>
-						<a href="assets/app/doc/_25D0_259F_25D0_25BE_25D0_25BB_25D0_25BD_25D1_258B_25D0_25B5 _25D1_2583_25D1_2581_25D0_25BB_25D0_25B0A3A52D63A" target="_blank">Условия оферты</a>
-						<div class="cards">
-							<div class="img-container">
-								<img src="assets/app/img/icons/mir.svg" alt="">
-							</div>
-							<div class="img-container">
-								<img src="assets/app/img/icons/mastercard.svg" alt="">
-							</div>
-							<div class="img-container">
-								<img src="assets/app/img/icons/visa.svg" alt="">
-							</div>
-							<div class="img-container">
-								<img src="assets/app/img/icons/paykeeper.svg" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="bs-group">
-						<h3>Группа компаний Black Star</h3>
-						<div class="row justify-content-center justify-content-lg-start">
-													<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@blackstarwear.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bswear-logo.svg" alt="Black Star Wear" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../blackstar-radio.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bsradio-logo.svg" alt="Black Star Radio" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../blackstargaming.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bsgaming-logo.svg" alt="Black Star Gaming" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@blackstarburger.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bsburger-logo.svg" alt="Black Star Burger" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../makeitmusic.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/makeitmusic.svg" alt="Make It Music" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../www.globalstarrussia.com/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/globalstar.svg" alt="Global Star Russia" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@blackstarcarwash.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bscarwash.svg" alt="Black Star Car Wash" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@black-star.ru/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/bs-logo1.svg" alt="Black Star" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@13girls.com/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/13-beauty.svg" alt="13 Beauty by Black Star" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@13byblackstar.com/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/13-logo.svg" alt="13 by Black Star" class="absolute-center">
-								</div>
-							</a>
-						</div>						<div class="col col-4 col-md-2 col-lg-1">
-							<a href="../https@www.blackstar.fit/default.htm" target="_blank" class="item">
-								<div class="img-container">
-									<img src="assets/app/spb-main/img/logo_BSF.svg" alt="Black Star Fitness" class="absolute-center">
-								</div>
-							</a>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</footer>
 	</div>
-	<!--[if lt IE 9]>
-	<script src="assets/app/spb-main/js/html5shiv/es5-shim.min.js"></script>
-	<script src="assets/app/spb-main/js/html5shiv/html5shiv.min.js"></script>
-	<script src="assets/app/spb-main/js/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="assets/app/spb-main/js/respond/respond.min.js"></script>
+
 	<![endif]-->
 	<script src="assets/app/spb-main/js/libs.min.js"></script>
-	<script src="assets/app/spb-main/js/js.cookie.js"></script>
 	<script src="assets/app/spb-main/js/common.js"></script>
 </body>
 </html>

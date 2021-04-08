@@ -84,7 +84,7 @@ $(document).ready(function() {
 
 	// Main slider
 
-	var menu = ['Карты', 'Карты', 'Карты',  'Сертификаты', 'Школа', 'Соревнования']
+	var menu = ['Карты', 'Сертификаты', 'Школа']
 	var swiper = new Swiper('.main-slider', {
 		spaceBetween: 500,
 		effect: 'coverflow',
@@ -93,7 +93,7 @@ $(document).ready(function() {
 		centeredSlides: true,
 		slidesPerView: 'auto',
 		loop: true,
-		loopedSlides: 5,
+		loopedSlides: 3,
 		coverflowEffect: {
 			rotate: 0,
 			stretch: 0,
@@ -152,15 +152,9 @@ $(document).ready(function() {
 	  } else if ( $('.certificate-slide').hasClass('swiper-slide-active') ) {
 	  	$('#services .info-container .info').css('display', 'none');
 	  	$('#certificate-info').fadeIn(300);
-	  } else if ( $('.rent-slide').hasClass('swiper-slide-active') ) {
-	  	$('#services .info-container .info').css('display', 'none');
-	  	$('#rent-info').fadeIn(300);
 	  } else if ( $('.school-slide').hasClass('swiper-slide-active') ) {
 	  	$('#services .info-container .info').css('display', 'none');
 	  	$('#school-info').fadeIn(300);
-	  } else if ( $('.competition-slide').hasClass('swiper-slide-active') ) {
-	  	$('#services .info-container .info').css('display', 'none');
-	  	$('#competition-info').fadeIn(300);
 	  }
 	});
 

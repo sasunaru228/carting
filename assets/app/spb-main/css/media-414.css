@@ -120,9 +120,9 @@
   #services .main-slider .text-container .left h4 {
     font-size: 11px;
     line-height: 15px;
-    margin-bottom: 85px; }
-  #services .main-slider .kart-slide .text-container .left > p {
-    display: none; }
+    margin-bottom: 10px; }
+  /*#services .main-slider .kart-slide .text-container .left > p {*/
+  /*  display: none; }*/
   #services .main-slider .text-container .left .lower .price-item {
     width: 120px; }
   #services .main-slider .text-container .left .lower .price-item ul li:first-of-type {
@@ -196,7 +196,7 @@
   #track {
     padding-top: 60px; }
   #track .map img.map-img {
-    width: 100%;
+    width: 92%!important;
     top: 20px; }
   #features {
     padding-top: 70px; }
@@ -1484,7 +1484,7 @@
     line-height: 14px;
     letter-spacing: 0.1em; }
   footer .contacts p.copyright {
-    margin-top: 220px; }
+    margin-top: 20px; }
   .contacts-footer {
     margin-top: 210px; }
   footer .contacts .social {

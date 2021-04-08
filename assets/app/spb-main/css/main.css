@@ -1027,7 +1027,7 @@ header {
     display: none; }
 
 #title {
-  height: 761px;
+  height: 600px;
   position: relative; }
   #title .wrapper {
     overflow: hidden;
@@ -1265,8 +1265,8 @@ header {
       color: #FF9F00; }
       #services .swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover p:after {
         opacity: 1; }
-    #services .swiper-pagination-bullet:nth-child(2), #services .swiper-pagination-bullet:nth-child(3) {
-      display: none; }
+    /*#services .swiper-pagination-bullet:nth-child(2), #services .swiper-pagination-bullet:nth-child(3) {*/
+    /*  display: none; }*/
   #services .main-slider {
     padding-top: 40px;
     width: 862px;
@@ -1369,7 +1369,9 @@ header {
       #services .main-slider .text-container .left p {
         line-height: 20px; }
       #services .main-slider .text-container .left .bottom {
-        display: table; }
+        display: table;
+        margin-top: 20px;
+      }
       #services .main-slider .text-container .left .button-container {
         margin-top: 0;
         background-color: transparent;
@@ -1521,13 +1523,13 @@ header {
 
 #track {
   padding-top: 70px;
-  padding-bottom: 70px; }
+}
   #track .wrapper {
     position: relative; }
   #track #resize {
     display: none; }
   #track .map {
-    height: 605px;
+    height: 500px;
     margin-top: 10px;
     margin-left: 150px;
     position: relative;
@@ -4462,7 +4464,9 @@ footer {
       background: -o-linear-gradient(left, #101216 27.43%, rgba(16, 18, 22, 0) 48.74%), -o-linear-gradient(275.43deg, #101216 21.71%, rgba(16, 18, 22, 0) 53.88%);
       background: linear-gradient(90deg, #101216 27.43%, rgba(16, 18, 22, 0) 48.74%), linear-gradient(174.57deg, #101216 21.71%, rgba(16, 18, 22, 0) 53.88%); }
   footer .contacts {
-    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 28px;
     position: relative;
     z-index: 1; }
