@@ -1768,7 +1768,7 @@ header {
   display: none !important; }
 
 .secondary-page {
-  margin-top: 132px; }
+  margin-top: 200px; }
   .secondary-page h2 {
     letter-spacing: 0.05em;
     position: relative; }
@@ -1930,7 +1930,7 @@ header {
       #prices .kart-prices .item .img-container img {
         width: 100%;
         position: absolute;
-        bottom: 0;
+        bottom: 20;
         -webkit-transition: -webkit-transform 0.3s ease;
         transition: -webkit-transform 0.3s ease;
         -o-transition: transform 0.3s ease;
@@ -2266,7 +2266,9 @@ header {
     #prices-certificates .img-container .cert-1i {
       width: 465px; }
     #prices-certificates .row.individual .img-container {
-      margin-top: -45px; }
+      margin-top: -45px;
+      margin-left: 60px;
+    }
 
 #other-prices {
   margin-top: 90px;
