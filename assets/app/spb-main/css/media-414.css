@@ -346,33 +346,34 @@
     height: auto;
     margin-top: 10px; }
   #prices-certificates .certificates .item {
-    padding: 20px 0;
-    height: auto;
+    padding: 10px 0;
+    height: 120px;
     text-align: center; }
     #prices-certificates .certificates .item:hover {
       height: auto;
       background-color: transparent; }
   #prices-certificates .subscriptions .certificates .item {
-    height: 68px;
+    height: 100px;
     text-align: center;
-    padding: 16px 0;
+    padding: 10px 0;
     position: relative; }
   #prices-certificates .subscriptions .certificates .item:hover {
     height: 68px; }
   #prices-certificates .certificates .item .races,
   #prices-certificates .subscriptions .certificates .item p.price {
-    margin-top: 0; }
+    margin-top: 8px; }
   #prices-certificates .certificates .item .races {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 16px;
     margin: auto;
+    margin-top: 8px;
     font-size: 12px;
     line-height: 17px; }
   #prices-certificates .certificates .item p.name {
     height: auto; }
-  #prices-certificates .certificates .col:not(:last-child) {
+  #prices-certificates .certificates .col {
     margin-bottom: 12px; }
   #prices-certificates .certificates .item p {
     color: #FF9F00;
@@ -1450,6 +1451,7 @@
   #contacts .contacts .booking .item:first-child {
     margin-bottom: 16px; }
   footer {
+    padding-top: 50px;
     padding-bottom: 0; }
   footer .map, footer .map-wrapper {
     bottom: 118vw;
@@ -1581,7 +1583,7 @@
 
 @media screen and (max-width: 375px) {
   #track .wrapper {
-    height: 172vw; }
+    height: 120vw; }
   #rating .top-scores .menu table tr th:first-of-type {
     width: 73vw; }
   #rating .top-scores .list table tr th:first-of-type,

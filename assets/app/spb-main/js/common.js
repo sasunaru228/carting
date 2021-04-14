@@ -84,7 +84,7 @@ $(document).ready(function() {
 
 	// Main slider
 
-	var menu = ['Карты', 'Сертификаты', 'Школа']
+	var menu = ['Карты', 'Сертификаты', 'Акции']
 	var swiper = new Swiper('.main-slider', {
 		spaceBetween: 500,
 		effect: 'coverflow',
